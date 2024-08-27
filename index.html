@@ -1,1 +1,106 @@
-Hello World
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lucas Davi Vieira</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <img src="Imagens/aaaa.png" id="bg">
+        <div class="master-container">
+            <div class="profile-card">
+                <div id="profile-pic">
+                    <img src="Imagens/eu.png">
+                </div>
+                <div id="name"><h1>Lucas Davi Vieira</h1></div>
+                <div id="personal-data">
+                    <h2 style="text-align: center;">Estudante de Engenharia de Software</h3>
+                    <h2 style="text-align: center;">Univille</h2>
+                    <br>
+                    <h3>21 anos</h2>
+                    <h3>E-mail: cttldvpro72@gmail.com</h2>
+                    <br>
+                    <br>
+                    <br>
+                    <h3 style="text-align: center;">Joinville/SC - Brasil </h2>
+                </div>
+            </div>
+            <div class="data-container">
+                <div class="tab">
+                    <button class="tablinks" onclick="open_section(event, 'me')" id="defaultopen">Quem sou eu?</button>
+                    <button class="tablinks" onclick="open_section(event, 'exp')">Experiências</button>
+                    <button class="tablinks" onclick="open_section(event, 'edu')">Educação</button>
+                    <button class="tablinks" onclick="open_section(event, 'skills')">Skills</button>
+                </div>
+
+                <div id="exp" class="tabcontent">
+                    <h2>Minhas experiências...</h2>
+                    <p>Lorem ipsum</p>
+                </div>
+                <div id="edu" class="tabcontent">
+                    <h2>Minha educação...</h2>
+                    <details class="education-list">
+                        <summary> Ensino Médio Completo </summary>
+                        Instituto Federal de Santa Catarina (2018-2019)<br>
+                        Arnaldo Moreira Douat (2020-2021)
+                    </details>
+                    <details class="education-list">
+                        <summary> Tecnologia em Segurança do Trabalho</summary>
+                        Serviço Nacional de Aprendizagem Industrial (SENAI) (2021-2023)
+                    </details>
+                    <details class="education-list">
+                        <summary> Bacharelado em Engenharia de Software</summary>
+                        Universidade da Região de Joinville (FURJ Univille) (2024-presente)
+                    </details>
+                </div>
+                <div id="skills" class="tabcontent">
+                    <div id="header"><h2>Minhas skills...</h2></div>
+                    <div id="skills-container">
+                        <div id="hard-skills">
+                            <h2> Hard Skills </h2>
+                            <ul>
+                                <li>lorem ipsum</li>
+                                <li>lorem ipsum</li>
+                                <li>lorem ipsum</li>
+                                <li>lorem ipsum</li>
+                                <li>lorem ipsum</li>
+                                <li>lorem ipsum</li>
+                            </ul>
+                        </div>
+                        <div id="soft-skills">
+                            <h2> Soft skills </h2>
+                            <ul>
+                                <li>lorem ipsum</li>
+                                <li>lorem ipsum</li>
+                                <li>lorem ipsum</li>
+                                <li>lorem ipsum</li>
+                                <li>lorem ipsum</li>
+                                <li>lorem ipsum</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="me" class="tabcontent">
+                    <h2>Quem eu sou...</h2>
+                    <p>Meu nome é Lucas, sou um jovem estudante de engenharia de software na Univille, atualmente no segundo semestre.</p>
+                    <p>Procuro me desenvolver e me capacitar cada vez mais nas tecnologias essenciais ao mercado, aprendendo novas linguagens, bibliotecas, frameworks e ferramentas para desenvolvimento.</p>
+                    <p>Estudo muito por conta própria pois desejo conquistar meu espaço no mercado de T.I internacional.</p>
+                    <p>Sou apaixonado por tecnologia e meu grande objetivo é poder contribuir com a sociedade através do meu trabalho e me tornar uma referência na área.</p>
+                    <p>Após finalizar o bacharelado em engenharia de software, pretendo ainda seguir para o mestrado e posteriormente o doutorado, ambos na área de T.I!</p>
+                </div>
+            </div>
+            <footer class="footer">
+                <div id="author-data">
+                    <h2> Made by Luke_Dev © </h2>
+                </div>
+                <div id="social-media">
+                    <a href="https://github.com/Lukas-Davi-Vieira"><img src="Imagens/25231.png" class="footer-icon"></a>
+                    <a href="https://br.linkedin.com/in/lucas-vieira-196a632a7"><img src="Imagens/3670129.png" class="footer-icon"></a>
+                    <a href="https://www.instagram.com/v_lukd?igsh=ZDNwODkyNjVqb2pt"><img src="Imagens/Instagram_icon.png" class="footer-icon"></a>
+                </div>
+            </footer>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
